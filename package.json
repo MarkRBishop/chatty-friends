@@ -1,0 +1,16 @@
+{
+    "name": "chatty-friends",
+    "version": "1.0.0",
+    "description": "A social network API",
+    "main": "server.js",  
+    "scripts": {
+      "start": "node server.js"  
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "mongoose": "^6.0.1"  
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.3"
+    }
+  }
