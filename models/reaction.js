@@ -23,6 +23,10 @@ const reactionSchema = new Schema(
   },
 );
 
-// Additional settings for ReactionSchema if needed
+
+//date helper function.
+function formatTimestamp(timestamp) {
+  return `${timestamp.toLocaleDateString()} at ${timestamp.toLocaleTimeString()}`
+}
 
 module.exports = reactionSchema;

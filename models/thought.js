@@ -27,6 +27,11 @@ const thoughtSchema = new Schema(
 }
 );
 
+//date helper function
+function formatTimestamp(timestamp) {
+  return `${timestamp.toLocaleDateString()} at ${timestamp.toLocaleTimeString()}`
+}
+
 // Virtual to get the length of the thought's reactions array
 thoughtSchema.virtual('reactionCount').get(function () {
   return this.reactions.length;
