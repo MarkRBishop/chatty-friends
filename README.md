@@ -31,3 +31,4 @@ Afterwards you can navigate to an application like insomnia and you can start cr
 
 There is a link at the top of this README with a video showing some of the functions you can use. (I must appologize i made a typo when demonstrating the last funciton, deleting a reaction. I did however show that it does work later so bear with me on that last part of the clip.)
 
+![picture of insomnia and a get request to the api](https://github.com/MarkRBishop/chatty-friends/blob/main/assets/chatty-friends-insomnia.png?raw=true)
